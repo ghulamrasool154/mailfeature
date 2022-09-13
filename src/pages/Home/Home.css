@@ -1,0 +1,38 @@
+.email_left_section {
+  width: 320px;
+}
+.search_icon {
+  position: relative;
+}
+.search_icon .search_icon {
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  font-size: 14px !important;
+  color: var(--emailtext);
+}
+.input_area {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+  padding-left: 32px !important;
+  color: var(--emailtext);
+  background-color: var(--emailgb) !important;
+  border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid #e8e9eb !important;
+  border-right: 1px solid #e8e9eb !important;
+  height: 50px;
+}
+.recents {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+.recents h4 {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+  color: var(--emailtext);
+  cursor: pointer;
+}

@@ -1,0 +1,256 @@
+span.edit--icon--close {
+  width: 33px;
+  height: 32px;
+  background: #7c7c7c21;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.new--message--button {
+  background-color: #304ffd;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  float: inherit;
+  max-width: 181px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.new--message--button:hover {
+  color: white;
+}
+
+.sidebar--mail--feature .menu---text.hidden {
+  display: none;
+}
+
+.sidebar--mail--feature ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar--mail--feature ul li a {
+  color: #3f434a;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: inherit;
+  padding: 15px 35px 15px 35px;
+  display: block;
+}
+
+.sidebar--mail--feature ul li img {
+  margin-right: 15px;
+  width: 25px;
+}
+.sidebar--mail--feature {
+  padding: 0 !important;
+}
+.sidebar--mail--feature ul a.active {
+  background-color: #f8f8f8;
+  border-left: 4px solid #304ffd;
+  padding: 15px 35px 15px 31px;
+}
+
+.sidebar--label--title h4 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: initial;
+  text-transform: uppercase;
+  color: #8a9099;
+  margin: 0;
+}
+
+.sidebar--label--title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.sidebar--label {
+  padding: 0 32px;
+  margin-top: 50px;
+  position: relative;
+}
+span.sidebar--icon i {
+  background: #f8f8f8;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #3f434a;
+}
+
+.sidebar--label ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar--label ul li .menu--hidden {
+  display: none;
+}
+.sidebar--label li a .icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 6px solid;
+  margin-right: 15px;
+}
+
+.sidebar--label li a .color-1 {
+  border-color: #ff965d;
+}
+.sidebar--label li a .color-2 {
+  border-color: #3ed3e6;
+}
+.sidebar--label li a .color-3 {
+  border-color: #49c96d;
+}
+.sidebar--label li a .color-4 {
+  border-color: #ffd240;
+}
+.sidebar--label li a .color-5 {
+  border-color: #304ffd;
+}
+
+.sidebar--label li a {
+  display: flex;
+  align-items: center;
+
+  color: #3f434a;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: inherit;
+}
+
+.sidebar--label ul li {
+  padding: 12px 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.three--doot i {
+  background: #f8f8f8;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #3f434a;
+}
+
+.three--doot {
+  display: none;
+  position: relative;
+}
+
+.sidebar--label ul li:hover .three--doot {
+  display: block;
+  cursor: pointer;
+}
+
+/* edit pop up setting */
+.edit---label--box {
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 300px;
+  height: auto;
+  /* padding: 35px; */
+  border-radius: 20px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 20px 30px;
+  z-index: 10;
+}
+
+.edit---label--box .edit--delete--box,
+.edit---label--box .add--sublabel,
+.edit---label--box .edit--box {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 0 30px;
+}
+
+/* .edit---label--box .edit--delete--box, */
+.edit---label--box .add--sublabel {
+  padding-bottom: 30px;
+}
+
+.edit---label--box .edit--delete--box {
+  border-top: 1px solid #e8e9eb;
+  border-bottom: 1px solid #e8e9eb;
+  padding: 20px 30px;
+}
+
+.edit--delete--box .edit-icon i,
+.add--sublabel .edit-icon i,
+.edit--box .edit-icon i {
+  font-size: 22px;
+  color: #8a9099;
+}
+
+.edit---label--box p {
+  margin: 0;
+}
+
+.edit--delete--box p,
+.add--sublabel p,
+.edit--box p {
+  font-size: 20px;
+  color: #595f69;
+  text-transform: capitalize;
+  padding-left: 20px;
+  line-height: inherit;
+}
+
+.edit--delete--box .edit-icon i,
+.edit--delete--box p {
+  color: #fd7972;
+}
+
+.colors--edit {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: darkgray;
+}
+
+.edit--colors--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 30px 10px 0 30px;
+  justify-content: space-between;
+}
+
+.edit--colors--wrapper .colors--box {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.edit--colors--wrapper .colors--edit {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: darkgray;
+}

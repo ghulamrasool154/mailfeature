@@ -1,0 +1,57 @@
+.email_body_main_wrapper {
+  padding: 15px;
+  background-color: var(--emailgb);
+  border-bottom: 1px solid #e8e9eb;
+  border-right: 1px solid #e8e9eb;
+}
+.email_body_main_wrapper i {
+  cursor: pointer;
+}
+.first {
+  display: flex;
+}
+
+.first h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--emailtext);
+  margin-left: 10px;
+}
+
+.name_date p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--emailtext);
+}
+
+.subject_title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--darkgrey);
+  margin-left: 25px;
+  margin-bottom: 0px !important;
+}
+
+.menu_list_icon,
+.bookmark_icon {
+  color: var(--darkgrey);
+}
+.detail_para {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--emailtext);
+  margin-left: 27px;
+  margin-bottom: 0px;
+  width: 90%;
+  text-overflow: ellipsis;
+}
+.second {
+  margin-left: 12px;
+}
+.third {
+  margin-left: 12px;
+}

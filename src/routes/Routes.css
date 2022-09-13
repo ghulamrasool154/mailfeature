@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 80px);
+  float: right;
+}
+
+.content .side--bar--menu.hidden {
+  width: 100px;
+}
+.content .side--bar--menu {
+  width: 300px;
+  border-right: 3px solid #e8e9eb;
+  position: relative;
+}
+.main--content--min {
+  width: calc(100% - 100px);
+  position: relative;
+}
+
+.main--content {
+  width: calc(100% - 300px);
+}

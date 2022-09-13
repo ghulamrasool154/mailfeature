@@ -1,0 +1,128 @@
+.in--p--icons--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+.inbox---icons {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #cccfd3;
+}
+
+.wrapper--right {
+  display: flex;
+  align-items: center;
+}
+.wrapper--left .inbox---icons span.inbox---icons--down {
+  padding-left: 10px;
+}
+.wrapper--right .total--messagesss {
+  margin-right: 25px;
+  margin-top: 3px;
+}
+
+.wrapper--center .search--box {
+  position: relative;
+}
+.wrapper--center span.inbox---icons {
+  position: absolute;
+  left: 0;
+  top: 12px;
+  color: #cccfd3;
+}
+
+.search--box input {
+  width: 600px;
+  border-radius: 15px;
+  padding: 10px 10px 10px 45px;
+  border: 1px solid #e8e9eb;
+  color: #8a9099;
+}
+
+.search--box input::placeholder {
+  color: #8a9099;
+}
+.search--box input:focus-visible {
+  outline: none;
+}
+.wrapper--left .foler--move--border {
+  border-left: 2px solid #e8e9eb;
+}
+
+.wrapper--right .total--messagesss p {
+  margin: 0;
+  padding: 0;
+}
+
+/* rending data */
+
+.content--left {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+
+.content--center {
+  width: 65%;
+}
+
+.content--right {
+  display: flex;
+  width: 10%;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.inbox--content--render {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inbox--content--render .cont--icon {
+  padding: 0 10px;
+  cursor: pointer;
+  color: #cccfd3;
+}
+
+.content--left .cont--icon i.fa-solid.fa-bookmark {
+  color: #fd7972;
+}
+.content--left .cont--icon i.fa-solid.fa-star {
+  color: #ffd240;
+}
+
+.content--left h4.title--inbox--user {
+  margin: 0;
+  font-size: 18px;
+  color: #3f434a;
+  line-height: initial;
+  white-space: nowrap;
+  padding-left: 15px;
+}
+
+.content--center p.contnet---disctipion {
+  color: #adadad;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: initial;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* max-width: 500px; */
+  overflow: hidden;
+}
+.content--center strong.subject {
+  color: #3f434a;
+}
+
+/*  */
+@media screen and (max-width: 1600px) {
+  .search--box input {
+    width: 450px;
+  }
+}

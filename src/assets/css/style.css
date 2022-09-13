@@ -1,0 +1,38 @@
+:root {
+  --maroon: #4e1e30;
+  --darkgrey: #3f434a;
+  --lightcream: #ffe1b2;
+  --mediumcream: #ffd7a3;
+  --white: #ffffff;
+  --darkcream: #f0c290;
+  --navyblue: #0090ff;
+  --darkgreen: #148a99;
+  --purple: #1f0951;
+  --gray: #324a5e;
+  --oldcream: #fdc88e;
+  --darkmaroon: #4a1827;
+  --lightgray: #515262;
+  --darkbrown: #5b2c3e;
+  --oldgrey: #5b5d6e;
+  --muchdarkbrown: #66273f;
+  --cyan: #84dbff;
+  --mediumpurple: #8b63e7;
+  --lightpurple: #9868f8;
+  --orane: #cc784a;
+  --offwhite: #efeff2;
+  --lightpink: #ffddcc;
+  --emailgb: #f8f8f8;
+  --emailtext: #8a9099;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e8e9eb;
+}

@@ -1,0 +1,53 @@
+header {
+  line-height: 65px;
+  border-bottom: 3px solid #e8e9eb;
+  padding: 0 25px;
+  width: calc(100% - 80px);
+  float: right;
+}
+
+.header--profile .header--pro--icon,
+.header--icons .h--icons-- i {
+  font-size: 25px;
+  margin: 0 15px;
+  color: var(--darkgrey);
+}
+
+.header--rightside .header--icons {
+  padding-right: 20px;
+}
+.header--profile {
+  display: flex;
+  align-items: center;
+  border-left: 3px solid #e8e9eb;
+  padding-left: 25px;
+  height: 40px;
+}
+.header--rightside {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header--profile h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: inherit;
+  margin: 0 20px;
+}
+
+.header--icons .bell--notifi {
+  position: relative;
+}
+.bell--notifi .header--notifi {
+  position: absolute;
+  top: -9px;
+  width: 15px;
+  height: 15px;
+  background: #fd7972;
+  border-radius: 50px;
+  z-index: 3;
+  right: 10px;
+}
+.header--icons {
+  padding-top: 10px;
+}

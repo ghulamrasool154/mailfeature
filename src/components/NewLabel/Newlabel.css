@@ -1,0 +1,133 @@
+.new--label {
+  width: 320px;
+  background: white;
+  padding: 30px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  box-shadow: rgb(0 0 0 / 20%) 13px 15px 20px -6px;
+  z-index: 11;
+}
+.label--title {
+  display: flex;
+  justify-content: space-between;
+}
+.label--input {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.label--title h4 {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 0;
+  color: #3f434a;
+}
+
+.label--color label,
+.label--input label {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: initial;
+  color: #8a9099;
+}
+.label--input input[type="text"] {
+  border: 1px solid #e8e9eb;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.label--input input::placeholder {
+  color: #3f434a;
+}
+.label--input input:focus-visible {
+  outline: none;
+  border: 1px solid #e8e9eb;
+}
+
+.label--button {
+  background: #304ffd;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.label--button a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.label--button a:hover {
+  color: white;
+}
+.label--color .color--wrappper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.label--color .color--wrappper .label--color {
+  width: 20%;
+  margin: 10px 0;
+}
+
+.label--color .color--icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.label--color .color--icon-1 {
+  background-color: #fd7972;
+  border: 4px solid #ffe4e3;
+}
+
+.label--color .color--icon-2 {
+  background-color: #ff965d;
+  border: 4px solid #ffeadf;
+}
+
+.label--color .color--icon-3 {
+  background-color: #ffd240;
+  border: 4px solid #fff6d9;
+}
+
+.label--color .color--icon-4 {
+  background-color: #304ffd;
+  border: 4px solid #d6dcff;
+}
+
+.label--color .color--icon-5 {
+  background-color: #22cce2;
+  border: 4px solid #d3f5f9;
+}
+
+.label--color .color--icon-6 {
+  background-color: #49c96d;
+  border: 4px solid #dbf4e2;
+}
+
+.label--color .color--icon-7 {
+  background-color: #aee553;
+  border: 4px solid #effadd;
+}
+
+.label--color .color--icon-8 {
+  background-color: #b656eb;
+  border: 4px solid #f0ddfb;
+}
+
+.label--color .color--icon-9 {
+  background-color: #fd72de;
+  border: 4px solid #ffe3f8;
+}
+
+.label--color .color--icon-10 {
+  background-color: #b656eb;
+  border: 4px solid #e8e9eb;
+}

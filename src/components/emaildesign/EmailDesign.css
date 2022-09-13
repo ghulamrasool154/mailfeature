@@ -1,0 +1,47 @@
+section.email_design_section {
+  width: calc(100% - 230px);
+}
+.main_top_bar {
+  padding: 12px 30px;
+  border-bottom: 1px solid #e8e9eb;
+}
+.iconsss {
+  margin-right: 20px;
+}
+.left_icon {
+  margin-right: 15px;
+}
+.right_icon {
+  margin-left: 15px;
+}
+.number_emails {
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--darkgrey);
+}
+.book {
+  color: #fd7972;
+}
+.email_template_wrapper_main {
+  padding: 30px 30px;
+}
+.email_template_top_section {
+  display: flex !important;
+  justify-content: space-between;
+}
+.title_email {
+  margin-left: 15px;
+}
+.subject_Disp h2 {
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  color: var(--darkgrey);
+}
+.title_email h5 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: #595f69;
+}
