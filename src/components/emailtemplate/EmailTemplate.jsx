@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./EmailTemplate.css";
 import CkEditior from "../ckeditior/CkEditior";
 import { TagsInput } from "react-tag-input-component";
+import { Mialimages } from "../../feature/Mialimages";
 const EmailTemplate = (props) => {
   const [selected, setSelected] = useState(["Refina Cooper"]);
   const {
@@ -45,13 +46,13 @@ const EmailTemplate = (props) => {
             <a href="#" download>
               <div className="d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
-                  <img src={pdfimage} alt="pdf icon" />
+                  <img src={Mialimages.pdf} alt="pdf icon" />
                   <div className="filename_size">
-                    <h5>{fileName}</h5>
-                    <p>{size}</p>
+                    <h5>Resume.pdf</h5>
+                    <p>570 KB</p>
                   </div>
                 </div>
-                <img src={downloadicon} alt="download " />
+                <img src={Mialimages.download} alt="download " />
               </div>
             </a>
           </div>
@@ -59,13 +60,13 @@ const EmailTemplate = (props) => {
             <a href="#" download>
               <div className="d-flex align-items-center justify-content-between">
                 <div className="d-flex align-items-center">
-                  <img src={pdfimage} alt="pdf icon" />
+                  <img src={Mialimages.zip} alt="pdf icon" />
                   <div className="filename_size">
-                    <h5>{fileName}</h5>
-                    <p className="mb-0">{size}</p>
+                    <h5>Portfolio.zip</h5>
+                    <p className="mb-0">250MB</p>
                   </div>
                 </div>
-                <img src={downloadicon} alt="download " />
+                <img src={Mialimages.download} alt="download " />
               </div>
             </a>
           </div>

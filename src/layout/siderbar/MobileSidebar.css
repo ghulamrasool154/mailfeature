@@ -1,0 +1,61 @@
+.mobile--side--bar--menu ul li a {
+    color: #3f434a;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: inherit;
+    padding: 15px 35px 15px 35px;
+    display: block;
+}
+
+.mobile--side--bar--menu ul li img {
+    margin-right: 15px;
+    width: 25px;
+}
+
+
+.mobil--menu {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    background: #0000009c;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+/* aside.MobileSidebar--overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000009c;
+    z-index: 20;
+} */
+
+aside.MobileSidebar--overlay {
+    width: 320px;
+    background: white;
+    /* height: 100%; */
+}
+
+.mobile--side--bar--menu ul {
+    list-style: none;
+    padding: 40px 0;
+    margin: 0;
+}
+.mobile--side--bar--menu {
+    /* width: 320px; */
+    background: white;
+    /* height: 100%; */
+}
+
+@media screen  and (max-width : 767px){
+    .mobil--menu{
+        display: block;
+    }
+
+
+
+}

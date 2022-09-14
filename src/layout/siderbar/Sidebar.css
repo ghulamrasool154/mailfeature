@@ -254,3 +254,13 @@ span.sidebar--icon i {
   border-radius: 50%;
   background: darkgray;
 }
+
+
+
+
+@media screen  and (max-width : 767px){
+  .sidebar--label{
+    padding-bottom:  50px;
+  }
+  
+}

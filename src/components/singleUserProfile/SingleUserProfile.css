@@ -1,0 +1,101 @@
+.SingleUserProfile {
+  width: 320px;
+  /* background: yellowgreen; */
+  padding: 50px 40px;
+  height: 100%;
+  border-right: 1px solid salmon;
+}
+
+.u--about--img {
+  position: relative;
+  margin-bottom: 25px;
+}
+.u--about--img .user--offline,
+.u--about--img .user--online {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 42px;
+  border: 3px solid #ffffff;
+}
+.u--about--img .user--online {
+  background: #49c96d;
+}
+.u--about--img .user--offline {
+  background: #8f8f8f;
+}
+
+.user--about {
+  text-align: center;
+}
+
+.user--about .user--about--name {
+  margin: 0;
+  font-size: 30px;
+  color: #3f434a;
+  font-weight: 400;
+}
+.user--about .user--about--desi {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #8a9099;
+}
+
+.user--info {
+  border-top: 2px solid #e8e9eb;
+  border-bottom: 2px solid #e8e9eb;
+  margin: 30px 0px;
+  padding: 30px 0;
+}
+
+.SingleUserProfile .title-- {
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #3f434a;
+}
+.user--info .user--about--detail {
+
+}
+.user--about--detail label {
+    color: #8a9099;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.u-about--group p {
+    font-size: 20px;
+    color: #3f434a;
+}
+
+
+
+/* usemedia */
+.user--media--detail .title---section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title---section .view--all {
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #304FFD;
+    cursor: pointer;
+}
+.title---section .view--all:hover {
+    color: #304FFD;
+
+}
+.user--media--detail .all--images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.imgess--list img {
+    border-radius: 10px;
+}

@@ -25,11 +25,20 @@ export const Mialimages = {
   setting: require("../assets/images/inbox-icon/Settings.png"),
 
   // home page
-  delete: require("../assets/images/Delete.png"),
+  // delete: require("../assets/images/Delete.png"),
   printer: require("../assets/images/printer.png"),
   leftarrow: require("../assets/images/Arrow-left.png"),
   rightarrow: require("../assets/images/Arrow-Right.png"),
   pdf: require("../assets/images/PDF.png"),
   download: require("../assets/images/download.png"),
   closemenu: require("../assets/images/closemenu.png"),
+
+  // user profile
+  userprofile: require("../assets/images/user-profile.png"),
+
+  bg: require("../assets/images/bg.png"),
+  bg2: require("../assets/images/bg2.png"),
+  bg3: require("../assets/images/bg3.png"),
+  avatar: require("../assets/images/Avatar.png"),
+  zip: require("../assets/images/ZIP.png"),
 };

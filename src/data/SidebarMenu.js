@@ -10,7 +10,7 @@ export const SidebarMenu = [
     id: "2",
     name: "Marked",
     icon: Mialimages.dashboardicon.default,
-    link: "marked",
+    link: "mail",
   },
   {
     id: "3",

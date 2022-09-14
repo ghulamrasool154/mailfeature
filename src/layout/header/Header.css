@@ -51,3 +51,49 @@ header {
 .header--icons {
   padding-top: 10px;
 }
+.mobile--responsice---menu{
+  display: none;
+}
+
+
+.search--icon--header--reponsive {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .disktop--responsice---menu{
+    display: none;
+  }
+  header {
+    width: 100%;
+  }
+  .mobile--responsice---menu{
+    display: block;
+  }
+  .header--leftside {
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header--rightside .header--icons,
+  .header--profile .header--pro--icon,
+  .header--profile h4 {
+    display: none;
+  }
+  .header--profile {
+    border: 0;
+  }
+
+  .search--icon--header--reponsive {
+    display: block;
+    width: 100%;
+  }
+  .search--icon--header--reponsive input {
+    width: 100%;
+    border: none;
+  }
+  .search--icon--header--reponsive input:focus-visible {
+    border: none;
+    outline: none;
+  }
+}

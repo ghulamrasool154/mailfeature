@@ -5,32 +5,6 @@ import "./Inbox.css";
 import { InboxUser } from "../../data/InboxUser";
 import InBoxUser from "../../components/InBoxUser/InBoxUser";
 const Inbox = () => {
-  const [stare, setStare] = useState(false);
-  // const [bookmark, setBookmark] = useState(true);
-  // const [newBookmark, setNewBookMark] = useState();
-  const [neInboxUser, setInboxUser] = useState(InboxUser);
-  const haldeBookmark = (index) => {
-    const newBookMarkChecked = InboxUser.find(
-      (element) => element.id === index
-    );
-
-    // setNewBookMark(newBookmark);
-    const updateList = (newBookMarkChecked.isChecked = true);
-    // console.log(newBookmark);
-    console.log("=>", updateList, newBookMarkChecked.id);
-  };
-  const haldeStare = () => {
-    setStare(!stare);
-  };
-  const hanldeChnageChecked = (index) => {
-    // console.log(index);
-    // const newBookMarkChecked = InboxUser.find((element) => element.id == index);
-    // console.log(newBookMarkChecked);
-    // if (newBookMarkChecked.isChecked) {
-    //   const InboxUser = [...InboxUser, (newBookMarkChecked.isChecked = true)];
-    // }
-    // const update = [...InboxUser, (newBookMarkChecked.isChecked = false)];
-  };
   return (
     <div className="inbox--page">
       <div className="container-fluid">
@@ -91,7 +65,7 @@ const Inbox = () => {
           </div>
         </div>
         <div className="row">
-          {neInboxUser.map((element) => {
+          {InboxUser.map((element) => {
             return <InBoxUser element={element} key={element.id} />;
           })}
         </div>

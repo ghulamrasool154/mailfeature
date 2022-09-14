@@ -1,5 +1,7 @@
 .email_left_section {
   width: 320px;
+  height: 100vh;
+  overflow-x: hidden;
 }
 .search_icon {
   position: relative;
@@ -7,7 +9,7 @@
 .search_icon .search_icon {
   position: absolute;
   top: 17px;
-  left: 12px;
+  left: 35px;
   font-size: 14px !important;
   color: var(--emailtext);
 }
@@ -15,7 +17,7 @@
   font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 21px !important;
-  padding-left: 32px !important;
+  padding-left: 58px !important;
   color: var(--emailtext);
   background-color: var(--emailgb) !important;
   border: none !important;
@@ -27,7 +29,7 @@
 .recents {
   position: absolute;
   top: 14px;
-  right: 10px;
+  right: 28px;
 }
 .recents h4 {
   font-size: 14px !important;
@@ -35,4 +37,12 @@
   line-height: 21px !important;
   color: var(--emailtext);
   cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  .email_template_wrapper_main , .main_top_bar {
+    padding: 12px 20px !important; 
+}
+section.email_design_section {
+  width: calc(85% - 155px) !important;
+}
 }

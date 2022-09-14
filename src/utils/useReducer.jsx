@@ -2,6 +2,7 @@ import { useReducer, createContext } from "react";
 
 const initialState = {
   menuToggle: false,
+  mobileMenuToggle: false,
 };
 
 export const contentCreate = createContext();
@@ -10,6 +11,10 @@ const reducer = (state, action) => {
     case "TOGGLE":
       return {
         menuToggle: !state.menuToggle,
+      };
+    case "MOBILETOGGLE":
+      return {
+        mobileMenuToggle: !state.mobileMenuToggle,
       };
 
     default:

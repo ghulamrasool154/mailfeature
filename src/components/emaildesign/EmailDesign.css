@@ -45,3 +45,6 @@ section.email_design_section {
   font-weight: 500;
   color: #595f69;
 }
+.left_icon , .right_icon , .first_ i , .iconsss {
+  cursor: pointer;
+}

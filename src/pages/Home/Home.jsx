@@ -3,19 +3,35 @@ import "./Home.css";
 import EmailBody from "../../components/emailbody/EmailBody";
 import { InboxUser } from "../../data/InboxUser";
 import EmailDesign from "../../components/emaildesign/EmailDesign";
+import { useEffect } from "react";
 const Home = () => {
   const [recent, setRecent] = useState("");
+  const [IbUser, setIbUser] = useState(InboxUser);
+  const [singlData, setSinglData] = useState([]);
   const handleRecent = () => {
     setRecent(recent);
     console.log(recent, "recent is properly worked");
   };
+  const hanldeChangeData = (_id) => {
+    const newdata = IbUser.find((el) => el.id === _id);
+
+    setSinglData(newdata);
+    console.log("test", newdata);
+  };
+
+  useEffect(() => {
+    const newdata = InboxUser.slice(0, 1)[0];
+    console.log(newdata);
+    setSinglData(newdata);
+  }, []);
+
   return (
     <>
       <div className="d-flex">
         <section className="email_left_section">
           <div className="containr-fluid">
             <div className="row">
-              <div className="col-lg-12 col-md-4">
+              <div className="col-lg-12 col-md-12 p-0">
                 <div className="email_main_wrapper">
                   <div className="email_search_area">
                     <div className="search_icon">
@@ -43,6 +59,7 @@ const Home = () => {
               <div className="col-lg-12">
                 {InboxUser.map((e, idx) => (
                   <EmailBody
+                    id={e.id}
                     key={idx}
                     name={e.name}
                     subject={e.subject}
@@ -51,13 +68,14 @@ const Home = () => {
                     img={e.img}
                     icon1={e.icon1}
                     icon2={e.icon2}
+                    hanldeChangeData={hanldeChangeData}
                   />
                 ))}
               </div>
             </div>
           </div>
         </section>
-        <EmailDesign />
+        <EmailDesign singlData={singlData} />
       </div>
     </>
   );

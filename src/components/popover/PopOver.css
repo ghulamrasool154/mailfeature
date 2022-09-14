@@ -100,3 +100,15 @@ img.close--icon {
   border-radius: 10px;
   overflow: hidden;
 }
+@media screen and (max-width: 1200px) {
+  .email-popup-filter-modal-dialog {
+    height: 90vh;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1024px){
+.email-popup-filter-modal-dialog {
+    height: 88vh;
+    width: 70%;
+}
+}

@@ -12,6 +12,8 @@ export const InboxUser = [
     isChecked: true,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Regina@gmail.com",
+    date: "27-May-2020",
   },
   {
     id: 2,
@@ -25,6 +27,8 @@ export const InboxUser = [
     isChecked: false,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Dustin@gmail.com",
+    date: "28-May-2020",
   },
   {
     id: 3,
@@ -38,6 +42,8 @@ export const InboxUser = [
     isChecked: true,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Jane@gmail.com",
+    date: "29-May-2020",
   },
   {
     id: 4,
@@ -51,6 +57,8 @@ export const InboxUser = [
     isChecked: false,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "bardon@gmail.com",
+    date: "30-May-2020",
   },
   {
     id: 5,
@@ -64,6 +72,8 @@ export const InboxUser = [
     isChecked: false,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Jacob@gmail.com",
+    date: "1-June-2020",
   },
   {
     id: 6,
@@ -77,6 +87,8 @@ export const InboxUser = [
     isChecked: false,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Shane@gmail.com",
+    date: "2-June-2020",
   },
   {
     id: 7,
@@ -90,5 +102,7 @@ export const InboxUser = [
     isChecked: true,
     icon1: <i className="fa-solid fa-ellipsis"></i>,
     icon2: <i className="fa-solid fa-bookmark"></i>,
+    email: "Ragina@gmail.com",
+    date: "3-June-2020",
   },
 ];

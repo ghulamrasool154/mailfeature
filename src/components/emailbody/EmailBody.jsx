@@ -12,14 +12,19 @@ const EmailBody = (props) => {
     disc,
     pressedFunction1,
     pressedFunction2,
+    hanldeChangeData,
+    id,
   } = props;
+
   return (
     <>
       <div className="email_body_main_wrapper">
         <div className="first justify-content-between align-items-center">
           <div className="d-flex align-items-center ">
             <img src={img} alt="email" className="email_image" />
-            <h5 className="mb-0">{name}</h5>
+            <h5 className="mb-0" onClick={() => hanldeChangeData(id)}>
+              {name}
+            </h5>
           </div>
 
           <div className="d-flex name_date">
