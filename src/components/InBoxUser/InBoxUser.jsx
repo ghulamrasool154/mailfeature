@@ -4,13 +4,20 @@ import { useState } from "react";
 const InBoxUser = ({ element }) => {
   const [bookmark, setbookmark] = useState(element.isbookmard);
   const [stare, setstare] = useState(element.isStart);
-  const hanldeChnageChecked = () => {};
+  const [check, setCheck] = useState(element.isChecked);
   const haldeBookmark = () => {
     setbookmark(!bookmark);
+
+    console.log(check);
   };
   const haldeStare = () => {
     setstare(!stare);
   };
+
+  const onChangeChecked = () => {
+    setCheck(!check);
+  };
+  console.log("check", check);
   return (
     <div className="col p-0">
       <div className="inbox--content--render">
@@ -18,10 +25,8 @@ const InBoxUser = ({ element }) => {
           <span className="cont--icon">
             <input
               type="checkbox"
-              checked={element.isChecked ? true : false}
-              onChange={() => {
-                hanldeChnageChecked(element.id);
-              }}
+              checked={check ? true : false}
+              onChange={onChangeChecked}
             />
           </span>
           <span className="cont--icon">
@@ -35,7 +40,7 @@ const InBoxUser = ({ element }) => {
               className={
                 bookmark ? "fa-solid fa-bookmark" : "fa-regular fa-bookmark"
               }
-              onClick={() => haldeBookmark(element.id)}
+              onClick={haldeBookmark}
             ></i>
           </span>
           <span className="cont--icon">

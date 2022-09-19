@@ -3,6 +3,8 @@ import { useReducer, createContext } from "react";
 const initialState = {
   menuToggle: false,
   mobileMenuToggle: false,
+  mobileProfile: false,
+  popNewTeam: false,
 };
 
 export const contentCreate = createContext();
@@ -15,6 +17,15 @@ const reducer = (state, action) => {
     case "MOBILETOGGLE":
       return {
         mobileMenuToggle: !state.mobileMenuToggle,
+      };
+    case "MOBILEPROFILE":
+      return {
+        mobileProfile: !state.mobileProfile,
+      };
+
+    case "NEWTEAM":
+      return {
+        popNewTeam: !state.popNewTeam,
       };
 
     default:

@@ -41,4 +41,9 @@ export const Mialimages = {
   bg3: require("../assets/images/bg3.png"),
   avatar: require("../assets/images/Avatar.png"),
   zip: require("../assets/images/ZIP.png"),
+  threePlus: require("../assets/images/+3.png"),
+
+  // private--chat
+  designer: require("../assets/images/designer.png"),
+  manger: require("../assets/images/manger.png"),
 };

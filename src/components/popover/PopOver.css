@@ -1,7 +1,6 @@
 .overlay--popupp--seting {
-  background-color: black;
-  z-index: 5;
-  background-color: #0000008f;
+  z-index: 100;
+  background-color: #d1d1d100;
   width: 100%;
   height: 100%;
   position: fixed;

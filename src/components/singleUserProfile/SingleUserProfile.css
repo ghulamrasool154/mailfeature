@@ -1,9 +1,8 @@
 .SingleUserProfile {
   width: 320px;
-  /* background: yellowgreen; */
   padding: 50px 40px;
   height: 100%;
-  border-right: 1px solid salmon;
+  min-width: 320px;
 }
 
 .u--about--img {
@@ -57,45 +56,112 @@
   color: #3f434a;
 }
 .user--info .user--about--detail {
-
 }
 .user--about--detail label {
-    color: #8a9099;
-    font-size: 18px;
-    text-transform: uppercase;
+  color: #8a9099;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .u-about--group p {
-    font-size: 20px;
-    color: #3f434a;
+  font-size: 20px;
+  color: #3f434a;
 }
-
-
 
 /* usemedia */
 .user--media--detail .title---section {
-    display: flex;
-    justify-content: space-between;
-
+  display: flex;
+  justify-content: space-between;
 }
 
 .title---section .view--all {
-    font-size: 18px;
-    text-transform: capitalize;
-    text-decoration: none;
-    color: #304FFD;
-    cursor: pointer;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #304ffd;
+  cursor: pointer;
 }
 .title---section .view--all:hover {
-    color: #304FFD;
-
+  color: #304ffd;
 }
 .user--media--detail .all--images {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 .imgess--list img {
-    border-radius: 10px;
+  border-radius: 10px;
+}
+
+.colse---single--user--profile {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .u--about--img .user--offline {
+    background: #8f8f8f;
+    right: 80px;
+    bottom: 11px;
+}
+
+  .SingleUserProfile {
+    min-width: 250px;
+    padding: 30px 20px;
+  }
+
+  .user--about .user--about--name {
+    font-size: 25px;
+  }
+  .user--about .user--about--desi {
+    font-size: 15px;
+  }
+  .u--about--img img {
+    width: 100px;
+  }
+  .u-about--group p,
+  .user--about--detail label {
+    font-size: 15px;
+  }
+  .title---section .view--all,
+  .SingleUserProfile .title-- {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .colse---single--user--profile {
+    display: block;
+  }
+  .sidebar---overlay {
+    position: fixed;
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    float: right;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  .sidebar---overlay.hidden{
+    display: none;
+
+  }
+  .SingleUserProfile {
+    background: white;
+    float: right;
+  }
+  .colse---single--user--profile span.close--icon {
+    width: 40px;
+    height: 40px;
+    background: #c5c5c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 22px;
+    color: black;
+}
 }

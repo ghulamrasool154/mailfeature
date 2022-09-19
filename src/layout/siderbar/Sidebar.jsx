@@ -13,6 +13,7 @@ const Sidebar = () => {
   };
 
   const data = useContext(contentCreate);
+  const menuToggleTF = data.state.menuToggle;
   const [popUp, setPopup] = useState(false);
   const [labelPop, setLabelPo] = useState(false);
   const [editlabel, setEidtLabel] = useState(false);
@@ -52,9 +53,9 @@ const Sidebar = () => {
                     <i className="fa-solid fa-plus" />
                   </span>
                 ) : (
-                  <a onClick={hanldePoup} className="new--message--button">
+                  <div onClick={hanldePoup} className="new--message--button">
                     new message{" "}
-                  </a>
+                  </div>
                 )}
 
                 <ul>
@@ -73,6 +74,16 @@ const Sidebar = () => {
                             {element.name}
                           </span>
                         </NavLink>
+
+                        <span
+                          className="inbox---bage--- badge bg-danger "
+                          style={{
+                            right: menuToggleTF && "25px",
+                            top: menuToggleTF && "10px",
+                          }}
+                        >
+                          {element.inbox}
+                        </span>
                       </li>
                     );
                   })}

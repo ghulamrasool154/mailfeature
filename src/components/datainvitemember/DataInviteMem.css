@@ -1,0 +1,16 @@
+.data_wrapper{
+    border: 1px solid #E8E9EB;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.inviteheading{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #3F434A;
+    margin-left: 12px;
+}
+.imgNheadingInvite img{
+width: 20%;
+}

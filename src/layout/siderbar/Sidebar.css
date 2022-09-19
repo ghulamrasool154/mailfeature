@@ -1,3 +1,18 @@
+
+.sidebar--mail--feature ul li{
+  position: relative;
+}
+
+.sidebar--mail--feature ul li .inbox---bage--- {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+.sidebar--mail--feature ul li .bg-danger{
+  background-color: #fd7972 !important;
+}
+
+
 span.edit--icon--close {
   width: 33px;
   height: 32px;
@@ -25,7 +40,7 @@ span.edit--icon--close {
   text-align: center;
   float: inherit;
   max-width: 181px;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
 }
 .new--message--button:hover {
@@ -65,7 +80,7 @@ span.edit--icon--close {
 
 .sidebar--label--title h4 {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
   line-height: initial;
   text-transform: uppercase;
   color: #8a9099;
@@ -254,13 +269,44 @@ span.sidebar--icon i {
   border-radius: 50%;
   background: darkgray;
 }
+@media screen and (max-width: 1400px) {
 
-
-
-
-@media screen  and (max-width : 767px){
-  .sidebar--label{
-    padding-bottom:  50px;
+ .content--right .time--inbox--comming{
+    font-size: 15px;
   }
-  
+  .sidebar--label li a,
+  .sidebar--mail--feature ul li a{
+    font-size: 18px;
+  }
+
+.sidebar--label li a .icon{
+  width: 15px;
+  height: 15px;
+  border-width: 4px ;
+}
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar--mail--feature ul a.active {
+    padding: 10px 20px 10px 20px;
+  }
+  .sidebar--mail--feature ul li a {
+    padding: 10px 20px 10px 24px;
+  }
+  .new--message--button {
+
+    font-size: 16px;
+    padding: 10px 20px;
+    max-width: fit-content;
+    border-radius: 0;
+  }
+  .main--content {
+    width: calc(100% - 220px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar--label {
+    padding-bottom: 50px;
+  }
 }

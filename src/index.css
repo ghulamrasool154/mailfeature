@@ -9,3 +9,6 @@ html,
 body {
   font-family: "Poppins", sans-serif !important;
 }
+input:focus{
+  outline: none;
+}

@@ -1,0 +1,139 @@
+.chat--page .chat--sidebar {
+  width: 400px;
+  background-color: #f8f8f8;
+}
+
+.side--bar---seach--chat .search---section--- {
+  position: relative;
+}
+.search---section--- input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #e8e9eb;
+  padding: 20px 20px 20px 50px;
+}
+.search---section--- input:focus-visible {
+  outline: none;
+}
+.side--bar---seach--chat .search---section--- i {
+  position: absolute;
+  top: 24px;
+  left: 20px;
+}
+
+.side---bar--people .people--about,
+.side---bar--items .teams--about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+.people--about h2,
+.teams--about h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: initial;
+  text-transform: uppercase;
+  color: #8a9099;
+  margin: 0;
+}
+
+.people--about i,
+.teams--about i {
+  background: #eeeff0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #3f434a;
+}
+
+.side--bar--people .people---list,
+.side---bar--items .teams---list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #e8e9eb;
+}
+
+.people--details .people-tile,
+.teams--details .teams-tile {
+  font-size: 18px;
+  color: #3f434a;
+  line-height: inherit;
+}
+.people--details p,
+.teams--details p {
+  color: #8a9099;
+  margin: 0;
+  line-height: inherit;
+  font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.people--details,
+.teams--details {
+  padding-left: 10px;
+  width: 75%;
+}
+.people--notifction .bg-danger,
+.teams--notifction .bg-danger {
+  background: #fd7972 !important;
+}
+
+.people--notifction,
+.teams--notifction {
+  width: 10%;
+  text-align: end;
+}
+
+.people-icons,
+.teams-icons {
+  width: 15%;
+  position: relative;
+}
+
+.people-icons span.online {
+  position: absolute;
+  bottom: -2px;
+  width: 15px;
+  height: 15px;
+  background: #49c96d;
+  border-radius: 15px;
+  right: 10px;
+  border: 3px solid white;
+}
+
+.people-icons .offline {
+  display: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .chat--page .chat--sidebar {
+    width: 300px;
+  }
+  .chat--user--profile {
+    padding: 12px 15px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .people--details .people-tile,
+  .teams--details .teams-tile {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .chat--page .chat--sidebar {
+    width: 100%;
+  }
+}

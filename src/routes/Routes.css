@@ -22,10 +22,30 @@
   width: calc(100% - 300px);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1400px) {
+  .content .side--bar--menu {
+    width: 250px;
+  }
+  .main--content{
+    width: calc(100% - 250px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  .content .side--bar--menu {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width : 1024px){
+  .content .side--bar--menu.hidden {
+    width: 80px;
+  }
+}
+@media screen and (max-width:860px) {
   .main--content,
+  
   .content {
-    width: 100%;
+    width: 100% !important;
   }
 
   .content .side--bar--menu {

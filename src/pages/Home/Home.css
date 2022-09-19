@@ -38,11 +38,26 @@
   color: var(--emailtext);
   cursor: pointer;
 }
+.mobile_responsive_view_inbox , .responsive_email_design{
+  display: none;
+}
 @media screen and (max-width: 992px) {
   .email_template_wrapper_main , .main_top_bar {
     padding: 12px 20px !important; 
 }
 section.email_design_section {
   width: calc(85% - 155px) !important;
+}
+}
+@media screen and (max-width: 900px) {
+
+  .home_page_wrapper_web{
+    display: none;
+  }
+  .mobile_responsive_view_inbox , .responsive_email_design {
+    display: block;
+}
+.responsive_email_design .email_design_section{
+  width: 100% !important;
 }
 }

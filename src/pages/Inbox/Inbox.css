@@ -84,7 +84,7 @@
 }
 
 .inbox--content--render .cont--icon {
-  padding: 0 10px;
+  padding: 0 5px;
   cursor: pointer;
   color: #cccfd3;
 }
@@ -123,6 +123,95 @@
 /*  */
 @media screen and (max-width: 1600px) {
   .search--box input {
-    width: 450px;
+    width: 400px;
   }
+  .content--left h4.title--inbox--user {
+    white-space: break-spaces;
+  }
+  .inbox--content--render .cont--icon {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .inbox---icons {
+    padding: 0 10px;
+  }
+  .search--box input {
+    width: 270px;
+  }
+  .content--left {
+    width: 30%;
+  }
+  .content--center {
+    width: 60%;
+    padding-left: 10px;
+  }
+  .content--right {
+    width: 10%;
+  }
+  .content--left h4.title--inbox--user{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wrapper--right .total--messagesss {
+    margin-right: 0;
+  }
+  .inbox---icons {
+    padding: 0 5px;
+  }
+  .content--center {
+    width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+ 
+
+
+  .inbox--content--render{
+    flex-wrap: wrap;
+  }
+  .content--center{
+    width: 100%;
+    order: 2;
+    padding: 15px 0;
+    border-bottom: 1px solid #e8e9eb;
+  }
+  .content--left,
+  .content--right{
+    width: 50%;
+  }
+
+
+
+  .search--box input {
+    width: 200px;
+    padding: 8px 8px 8px 30px;
+  }
+
+  .wrapper--center span.inbox---icons {
+    left: 6px;
+    top: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .search--box input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .in--p--icons--wrapper {
+    display: none;
+  }
+  .content--left{
+    width: 70%;
+
+  }
+  .content--right{
+    width: 30%;
+  }
+
 }
