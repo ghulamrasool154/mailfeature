@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./EmailDesign.css";
 import { Mialimages } from "../../feature/Mialimages";
 import EmailTemplate from "../emailtemplate/EmailTemplate";
@@ -42,7 +42,7 @@ const EmailDesign = ({ singlData }) => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row ">
             <div className="col-lg-12 p-0">
               <EmailTemplate
                 icon={singlData.img}

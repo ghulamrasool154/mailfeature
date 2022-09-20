@@ -1,61 +1,74 @@
 .mobile--side--bar--menu ul li a {
-    color: #3f434a;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: inherit;
-    padding: 15px 35px 15px 35px;
-    display: block;
+  color: #3f434a;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: inherit;
+  padding: 15px 35px 15px 35px;
+  display: block;
 }
 
 .mobile--side--bar--menu ul li img {
-    margin-right: 15px;
-    width: 25px;
+  margin-right: 15px;
+  width: 25px;
 }
-
 
 .mobil--menu {
-    display: none;
-    position: fixed;
-    inset: 0;
-    z-index: 10;
-    background: #0000009c;
-    height: 100%;
-    overflow: scroll;
-    overflow-x: hidden;
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  background: #0000009c;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
-/* aside.MobileSidebar--overlay {
-    position: fixed;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background: #0000009c;
-    z-index: 20;
-} */
-
 aside.MobileSidebar--overlay {
-    width: 320px;
-    background: white;
-    /* height: 100%; */
+  width: 320px;
+  background: white;
 }
 
 .mobile--side--bar--menu ul {
-    list-style: none;
-    padding: 40px 0;
-    margin: 0;
+  list-style: none;
+  padding: 40px 0;
+  margin: 0;
 }
 .mobile--side--bar--menu {
-    /* width: 320px; */
-    background: white;
-    /* height: 100%; */
+  position: relative;
+  background: white;
+}
+.mobile--side--bar--menu span.close---side--menu {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 0;
 }
 
-@media screen  and (max-width : 860px){
-    .mobil--menu{
-        display: block;
+@media screen and (max-width: 860px) {
+    .mobile--side--bar--menu ul li a.active {
+        background: #dddddd57;
     }
-
-
-
+  .mobil--menu {
+    display: block;
+  }
+  .mobile--side--bar--menu ul li a{
+    font-size: 16px;
+  }
+  .mobile--side--bar--menu ul li img{
+    width: 20px;
+  }
+}
+@media screen  and (max-width : 500px){
+    aside.MobileSidebar--overlay{
+        width: 250px;
+    }
 }

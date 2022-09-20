@@ -18,7 +18,7 @@ export const SidebarMenu = [
     id: "3",
     name: "Drafts",
     icon: Mialimages.dashboardicon.default,
-    link: "drafts",
+    link: "Drafts",
     inbox: "",
   },
   {
@@ -30,16 +30,31 @@ export const SidebarMenu = [
   },
   {
     id: "5",
-    name: "Important ",
-    icon: Mialimages.mailcion.default,
-    link: "important",
-    inbox: 4,
+    name: "Chat",
+    icon: Mialimages.dashboardicon.default,
+    link: "Chat",
+    inbox: "",
   },
   {
     id: "6",
+    name: "Important ",
+    icon: Mialimages.mailcion.default,
+    link: "Important",
+    inbox: 4,
+  },
+  {
+    id: "7",
+    name: "Group Chat ",
+    icon: Mialimages.mailcion.default,
+    link: "private-grou-chat",
+    inbox: "",
+  },
+
+  {
+    id: "8",
     name: "Deleted",
     icon: Mialimages.dashboardicon.default,
-    link: "delete",
+    link: "Deleted",
     inbox: "",
   },
 ];

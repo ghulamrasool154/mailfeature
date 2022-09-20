@@ -59,8 +59,8 @@ const ResponsiveInbox = () => {
             </div>
             <div className="row">
               <div className="col-lg-12">
-                {InboxUser.map((els, idx) => (
-                  <div className="email_body_main_wrapper">
+                {InboxUser.map((els, index) => (
+                  <div className="email_body_main_wrapper" key={index}>
                     <div className="first justify-content-between align-items-center">
                       <div className="d-flex align-items-center ">
                         <img
@@ -68,7 +68,7 @@ const ResponsiveInbox = () => {
                           alt="email"
                           className="email_image"
                         />
-                        <Link to={`${els.id}`}>
+                        <Link to={`/mail/${els.id}`}>
                           <h5 className="mb-0">{els.name}</h5>
                         </Link>
                       </div>

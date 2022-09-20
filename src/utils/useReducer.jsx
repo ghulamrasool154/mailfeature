@@ -5,6 +5,7 @@ const initialState = {
   mobileMenuToggle: false,
   mobileProfile: false,
   popNewTeam: false,
+  popTeamProfile: false,
 };
 
 export const contentCreate = createContext();
@@ -26,6 +27,11 @@ const reducer = (state, action) => {
     case "NEWTEAM":
       return {
         popNewTeam: !state.popNewTeam,
+      };
+
+    case "TEAMPROFILE":
+      return {
+        popTeamProfile: !state.popTeamProfile,
       };
 
     default:

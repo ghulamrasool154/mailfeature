@@ -1,10 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, Inbox, Chat } from "../pages/Pages";
+import { Home, Inbox, Chat, PageNotFound, MultiUser } from "../pages/Pages";
 import "./Routes.css";
 import Sidebar from "../layout/siderbar/Sidebar";
 import { contentCreate } from "../utils/useReducer";
 import { useContext } from "react";
-import SingleUserProfile from "../components/singleUserProfile/SingleUserProfile";
 import MobileSidebar from "../layout/siderbar/MobileSidebar";
 import ResponsiveEmailDesign from "../pages/ResponsiveEmailDesign/ResponsiveEmailDesign";
 const Routing = () => {
@@ -27,7 +26,8 @@ const Routing = () => {
             <Route path="mail/:id" element={<ResponsiveEmailDesign />} />
             <Route path="inbox" element={<Inbox />} />
             <Route path="Chat" element={<Chat />} />
-            {/* <Route path="/" element={<ResponsiveEmailDesign/>}/> */}
+            <Route path="private-grou-chat" element={<MultiUser />} />
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>
       </main>

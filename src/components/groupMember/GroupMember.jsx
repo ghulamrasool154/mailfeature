@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./GroupMember.css";
 const GroupMember = (props) => {
   const {
     logo,
@@ -26,10 +26,14 @@ const GroupMember = (props) => {
     userIcon3,
     username3,
     profession3,
+    memerShow,
   } = props;
   return (
     <>
       <div className="main_group_member_wrapper">
+        <span className="desinger---close---menu" onClick={memerShow}>
+          <i className="fa-solid fa-xmark"></i>
+        </span>
         <div className="member_top border-bottom">
           <img src={logo} alt="logo" className="logo" />
           <h5>{memberheading}</h5>

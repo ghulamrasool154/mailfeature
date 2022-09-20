@@ -105,7 +105,7 @@ const Sidebar = () => {
                   {LabelList.map((element) => {
                     return (
                       <li key={element.id}>
-                        <Link to={""}>
+                        <a>
                           <div
                             className={`color-${element.id} icon`}
                             style={{ position: "relative" }}
@@ -117,7 +117,7 @@ const Sidebar = () => {
                           >
                             {element.name}
                           </span>
-                        </Link>{" "}
+                        </a>{" "}
                         <div className="three--doot" onClick={hanldeEditLabel}>
                           <i className="fa-solid fa-ellipsis-vertical"></i>
                         </div>

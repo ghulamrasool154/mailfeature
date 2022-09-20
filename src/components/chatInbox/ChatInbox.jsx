@@ -14,9 +14,9 @@ const ChatInbox = () => {
     <div className="ChatInbox">
       <div className="chat--user--profile">
         <div className="prof--u---left">
-          <img src={Mialimages.user1} alt="" />
+          <img src={Mialimages.user2} alt="" />
           <span className="active---user"></span>
-          <h3 onClick={memerShow}>janw wilson</h3>
+          <h3 onClick={memerShow}>jane wilson</h3>
         </div>
         <div className="prof--u---right">
           <span className="pro--icon pro--r">

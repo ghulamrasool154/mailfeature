@@ -31,7 +31,7 @@ const EmailTemplate = (props) => {
             </div>
           </div>
 
-          <div>
+          <div className="email__template__top__right__side">
             <p>
               {date}-{time}
             </p>

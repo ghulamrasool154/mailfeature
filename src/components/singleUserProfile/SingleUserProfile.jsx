@@ -25,7 +25,7 @@ const SingleUserProfile = () => {
             <div className="user--about--detail">
               <div className="u--about--img">
                 <img src={Mialimages.userprofile} alt="" />
-                <div className="user--online user--offline"></div>
+                <div className="user--online"></div>
               </div>
               <h2 className="user--about--name">
                 Jane <strong>Wilson</strong>

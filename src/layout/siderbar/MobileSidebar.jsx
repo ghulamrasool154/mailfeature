@@ -6,12 +6,21 @@ import { contentCreate } from "../../utils/useReducer";
 import { LabelList } from "../../data/LabelList";
 const MobileSidebar = () => {
   const data = useContext(contentCreate);
-  const siddMobile = data.state.mobileMenuToggle;
 
   return (
     <div className="mobil--menu">
       <aside className="MobileSidebar--overlay">
         <div className="mobile--side--bar--menu">
+          <span
+            className="close---side--menu"
+            onClick={() =>
+              data.dispatch({
+                type: "MOBILETOGGLE",
+              })
+            }
+          >
+            <i className="fa-solid fa-xmark"></i>
+          </span>
           <ul>
             {SidebarMenu.map((element) => {
               return (

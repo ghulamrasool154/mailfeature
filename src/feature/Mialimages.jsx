@@ -46,4 +46,5 @@ export const Mialimages = {
   // private--chat
   designer: require("../assets/images/designer.png"),
   manger: require("../assets/images/manger.png"),
+  figma: require("../assets/images/Figma.png"),
 };

@@ -1,0 +1,113 @@
+
+
+
+
+.main_group_member_wrapper {
+    width: 320px;
+    float: right;
+    padding: 20px;
+    border-left: 1px solid #E8E9EB;
+    height: 100vh;
+    overflow: scroll;
+    background-color: white;
+    position: relative;
+
+}
+span.desinger---close---menu {
+
+display: none}
+
+
+.member_top {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.member_top h5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #3F434A;
+}
+
+.member_top p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A9099;
+}
+
+.files_view,
+.photos_view,
+.members_view {
+    display: flex;
+    justify-content: space-between;
+}
+
+.files {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    color: var(--darkgrey)
+}
+
+.viewall {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #304FFD;
+    cursor: pointer;
+}
+
+.nameNsize {
+   margin-left: 15px;
+}
+
+.nameNsize h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--darkgrey);
+    margin-bottom: 0px;
+}
+
+.nameNsize p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--emailtext);
+    margin-bottom: 0px;
+}
+
+.main-file-wrapper {
+    margin-bottom: 20px;
+}
+
+.files_section,
+.photos_view,
+.members_view {
+    margin-top: 15px;
+}
+
+.images_section {
+    padding-bottom: 20px;
+}
+.member_lists{
+    margin-bottom: 20px;
+}
+
+@media screen  and (max-width : 1360px){
+    span.desinger---close---menu {
+        
+        position: absolute;
+        inset: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        color: white;
+        font-size: 20px;
+    }
+}

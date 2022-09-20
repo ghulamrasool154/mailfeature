@@ -1,0 +1,10 @@
+.p--not--found{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+@media screen and (max-width : 767px) {
+    .p--not--found{
+        font-size: 25px;
+    }
+}

@@ -176,3 +176,19 @@ li {
 /* div#editor div:first-child{
 display: block !important;
 } */
+
+
+
+
+@media screen  and (max-width : 767px){
+  .email__template__top__right__side p {
+    font-size: 15px;
+    text-align: end;
+}
+.subject_Disp h2{
+  font-size: 20px;
+}
+p{
+  font-size: 15px !important;
+}
+}

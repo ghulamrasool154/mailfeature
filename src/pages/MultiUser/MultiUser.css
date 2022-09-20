@@ -1,0 +1,132 @@
+.more {
+  background: #eaedff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.imagemulti2,
+.imagemulti3 {
+  margin-left: 10px;
+}
+.nameNdate {
+  margin-left: 15px;
+}
+.nameNdate h5 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #3f434a;
+}
+.nameNdate p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #8a9099;
+}
+.detail_mulit {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  line-height: 22px !important;
+  color: #595f69 !important;
+}
+.fourth_user_,
+.third_user_,
+.second_user_,
+.first_user_,
+.fifth_user_ {
+  margin-top: 30px;
+}
+.download_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 10px;
+}
+.download_section {
+  width: 320px;
+  height: 74px;
+  border: 1px solid #e8e9eb;
+}
+.detail_invite {
+  margin-left: 10px;
+}
+.detail_invite h5 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #3f434a;
+}
+.todaty_invite {
+  position: relative;
+}
+.todaty_invite h6::before {
+  content: "";
+  display: block;
+  border: 1px solid #e8e9eb;
+  width: 35%;
+  height: 1px;
+  background-color: #e8e9eb;
+  position: absolute;
+  left: 8%;
+  top: 50%;
+}
+.todaty_invite h6::after {
+  content: "";
+  display: block;
+  border: 1px solid #e8e9eb;
+  width: 35%;
+  height: 1px;
+  background-color: #e8e9eb;
+  position: absolute;
+  right: 8%;
+  top: 50%;
+}
+.inbox_multi_user_ {
+  width: 100%;
+}
+.multi_user_sideBar {
+  width: 320px;
+  border-right: 1px solid #e8e9eb;
+  background-color: #f8f8f8;
+}
+.inobx_chat {
+  padding: 0px 50px;
+}
+.time_ago p {
+  margin-bottom: 0px !important;
+  margin-left: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+@media screen and (max-width: 1360px) {
+  /* .overlay_wrapper_designer {
+    display: none;
+  } */
+  .overlay_wrapper_designer.hidden{
+    display: none
+  }
+  .overlay_wrapper_designer {
+    position: fixed;
+    background: #00000061;
+    inset: 0;
+    z-index: 15;
+}
+  
+}
+
+@media screen  and (max-width : 1200px){
+  .inobx_chat {
+    padding: 0 14px;
+} 
+}
+@media screen  and (max-width : 1024px){
+  .inner_wrapper_multi_user {
+    flex-direction: column;
+  }
+  .multi_user_sideBar {
+    width: 100%;
+  }
+}
